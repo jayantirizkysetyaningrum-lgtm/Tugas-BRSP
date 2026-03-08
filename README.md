@@ -16,3 +16,11 @@
 - **Indonesia relevance**: T2DM prevalence 10.8%
 
 ## 📁 Repository Structure
+
+## 🚀 Quick Start
+```r
+# Install packages
+BiocManager::install(c("GEOquery", "limma", "pheatmap"))
+
+# Run analysis
+source("analysis_complete.R")
